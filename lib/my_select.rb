@@ -5,6 +5,4 @@ def my_select(collection)
  new_collection << yield(collection[i])
  i += 1
  end
- if true
-my_select(collection)
-end
+ end 
