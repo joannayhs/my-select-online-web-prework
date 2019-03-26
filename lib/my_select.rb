@@ -5,7 +5,7 @@ def my_select(collection)
  new_collection << yield(collection[i])
  i += 1
  end
- if my_selection(collection) == true 
+ if my_select(collection) == true 
    return "#{nums}"
  end 
  end 
